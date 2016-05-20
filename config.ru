@@ -1,2 +1,2 @@
-require_relative './bootstrap'
+require_relative 'bootstrap'
 run App

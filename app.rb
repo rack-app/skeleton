@@ -1,6 +1,6 @@
 class App < Rack::App
 
-  require 'app/healthcheck'
+  require_relative 'app/healthcheck'
 
   mount App::Healthcheck
 

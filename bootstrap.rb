@@ -1,5 +1,3 @@
-$LOAD_PATH.unshift File.dirname(__FILE__)
-
 require 'bundler'
 
 case ENV['RACK_ENV']
@@ -11,4 +9,4 @@ case ENV['RACK_ENV']
     Bundler.require(:default, :development)
 end
 
-require 'app'
+require_relative 'app'
